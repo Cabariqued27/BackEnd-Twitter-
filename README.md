@@ -9,12 +9,15 @@ CRUD de usuarios
 CRUD de publicaciones/tweets.
 "READ" debe incluir la opción de filtrar según el creador de la publicación.
 "UPDATE" solo debe permitir cambiar el cuerpo de la publicacion.
+
 CR-D de seguidores
 "CREATE" crea un vinculo seguidor -> seguido
 "READ" unicamente retorna los seguidores de un usuario, o los seguidos de un usuario.
 "DELETE" borra un vinculo.
+
 -R-- Endpoint de "timeline" de usuario
 "READ" retorna el "timeline" de un usuario, es decir, las publicaciones de los usuarios seguidos por un usuario, ordenados por fecha.
+
 CR-D de "likes" 
 "READ" retorna las publicaciones "like"-eadas por un usuario.
 Toda publicacion retornada en todo otro endpoint debe traer consigo el numero de "likes" de esa publicacion.
