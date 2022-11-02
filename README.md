@@ -1,4 +1,4 @@
-# BackEnd-Twitter-
+# BackEnd - Twitter -
 Desarrollen el backend para un clon de Twitter.
 
 La API debe crearse como repositorio en Github y debe ser "entregada" al profesor utilizando el enlace, donde se enviará unicamente el link al repositorio.
